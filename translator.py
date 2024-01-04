@@ -4,7 +4,7 @@ from googletrans import Translator
 #print (googletrans.LANGUAGES)
 
 
-text1 = "This is my first channel"
+text1 = "The flying horse is fast"
 
 text2 = "Detta är min första kanal"
 
@@ -17,6 +17,6 @@ print (transobjekt.detect(text2))
 print (transobjekt.detect(text3))
 
 
-
+print ("Översatt från svenska till engelska: ", transobjekt.translate(text1, src='en', dest='sv'))
 print ("Översatt från svenska till engelska: ", transobjekt.translate(text2))
 
