@@ -17,6 +17,18 @@ print (transobjekt.detect(text2))
 print (transobjekt.detect(text3))
 
 
-print ("Översatt från svenska till engelska: ", transobjekt.translate(text1, src='en', dest='sv'))
-print ("Översatt från svenska till engelska: ", transobjekt.translate(text2))
+text4 = transobjekt.translate(text1, src='en', dest='sv')
+text5 = transobjekt.translate(text2, src='sv', dest='fr')
+
+print ("text på svenska: ", text4.text)
+print ("text på franska: ", text5.text)
+
+
+
+
+
+
+
+
+
 
